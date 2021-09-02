@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.cart-summary-content-container {
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+
+.total-and-cart-items {
+  color: #616e7c;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-and-cart-items {
+    font-size: 17px;
+  }
+}
+
+.order-total {
+  font-size: 17px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total {
+    font-size: 20px;
+  }
+}
+
+.cart-items {
+  margin-top: 0;
+}
+
+.total-price {
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .total-price {
+    font-size: 24px;
+  }
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+
+.desktop-checkout-button {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-checkout-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .mobile-checkout-button {
+    display: none;
+  }
+}
